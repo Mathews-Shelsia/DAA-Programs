@@ -1,0 +1,17 @@
+//swapping of two numbers
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int x,y;
+int temp=0;
+cout<<"Enter the value of x:";
+cin>>x;
+cout<<"\nEnter the value of y:";
+cin>>y;
+temp=x;
+x=y;
+y=temp;
+cout<<"\n The swapped value of x is:"<<x<<"\nThe swapped value of y is:"<<y;
+getch();
+}
