@@ -1,0 +1,28 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int Arr[5];
+int n,flag=0;
+cout<<"Enter the array elements";
+for(int i=0;i<5;i++)
+ {
+ cin>>Arr[i];
+ }
+cout<<"Enter the element to be searched for:";
+cin>>n;
+ for( i=0;i<Arr[i];i++)
+ {
+ if(n==Arr[i])
+ {
+ flag=1;
+ break;
+ }
+ }
+ if(flag)
+ cout<<"Element found at position:"<<i+1;
+ else
+ cout<<"Element doesnt exist";
+getch();
+}
